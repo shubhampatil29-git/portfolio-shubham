@@ -61,16 +61,6 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="mb-6"
-        >
-          <span className="px-4 py-2 bg-indigo-500/20 border border-indigo-500/30 rounded-full text-sm text-indigo-300 font-medium">
-            Electronics & Telecom Engineer
-          </span>
-        </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -79,6 +69,16 @@ export default function Hero() {
         >
           Shubham Patil
         </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="mb-6"
+        >
+          <span className="px-4 py-2 bg-indigo-500/20 border border-indigo-500/30 rounded-full text-sm text-indigo-300 font-medium">
+            Electronics & Telecommunication Engineer
+          </span>
+        </motion.div>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

@@ -255,7 +255,8 @@ export default function Contact() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-gray-400">© 2025 Shubham Patil. All rights reserved.</p>
+          <p className="text-gray-400">Portfolio created by Shubham Patil</p>
+          <p className="text-gray-500 text-sm mt-2">© 2025 Shubham Patil. All rights reserved.</p>
         </div>
       </motion.div>
     </section>
